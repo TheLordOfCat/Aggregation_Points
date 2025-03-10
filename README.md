@@ -1,0 +1,2 @@
+# aggregationPoints
+Little simulation project
