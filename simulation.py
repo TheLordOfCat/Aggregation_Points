@@ -14,9 +14,13 @@ def plotCircle(posX, posY, r, ax):
 fig, ax = plt.subplots(figsize = (10,10))
 
 val = 100
+r = 5
 
 while val > 0.01:
-    plotCircle(1,1,val,ax)
+    plotCircle(1,1,r,ax)
+    plotCircle(20,20,r,ax)
     val /= 5
+    r += 5
+
 
 plt.show()
